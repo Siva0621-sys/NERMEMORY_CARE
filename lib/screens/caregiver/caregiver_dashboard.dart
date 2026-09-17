@@ -21,14 +21,15 @@ import 'reminders_screen.dart';
 
 /// Caregiver Dashboard showcasing patient overview, stats, timeline, and quick actions
 class CaregiverDashboard extends StatefulWidget {
-  const CaregiverDashboard({super.key});
+  final int initialTabIndex;
+  const CaregiverDashboard({super.key, this.initialTabIndex = 0});
 
   @override
   State<CaregiverDashboard> createState() => _CaregiverDashboardState();
 }
 
 class _CaregiverDashboardState extends State<CaregiverDashboard> {
-  int _currentTabIndex = 0;
+  late int _currentTabIndex;
   late final ProgressService _progressService;
   late final ReminderService _reminderService;
   late final AppStateNotifier _appState;
@@ -36,6 +37,7 @@ class _CaregiverDashboardState extends State<CaregiverDashboard> {
   @override
   void initState() {
     super.initState();
+    _currentTabIndex = widget.initialTabIndex;
     _progressService = ProgressService();
     _reminderService = ReminderService();
     _appState = AppStateNotifier();

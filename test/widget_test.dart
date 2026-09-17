@@ -7,10 +7,10 @@ void main() {
     await tester.pumpAndSettle();
 
     // 1. Welcome Screen
-    expect(find.text('NER MemoryCare'), findsOneWidget);
+    expect(find.text('NER MEMORY CARE'), findsWidgets);
     final getStartedFinder = find.textContaining('Get Started');
-    await tester.ensureVisible(getStartedFinder);
-    await tester.tap(getStartedFinder);
+    await tester.ensureVisible(getStartedFinder.first);
+    await tester.tap(getStartedFinder.first);
     await tester.pumpAndSettle();
 
     // 2. Mode Selection Screen

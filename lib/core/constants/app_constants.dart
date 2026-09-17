@@ -6,10 +6,10 @@ class AppConstants {
   AppConstants._();
 
   // App Identity
-  static const String appName = 'NER MemoryCare';
+  static const String appName = 'NER MEMORY CARE';
   static const String appTagline = 'Small moments. Stronger memories.';
   static const String appDescription =
-      'A gentle space for cognitive activities, daily routines, and caregiver support.';
+      'AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in North Eastern Region (NER).';
   static const String problemStatementId = '26003';
   static const String ministry =
       'Ministry of Development of North Eastern Region (MDoNER)';
