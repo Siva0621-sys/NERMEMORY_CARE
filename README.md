@@ -1,7 +1,7 @@
 # NER MemoryCare – Cognitive Gaming & Memory Assistance Platform
 
-[![Deploy to GitHub Pages](https://github.com/Siva0621-sys/SOLVEAI/actions/workflows/deploy.yml/badge.svg)](https://github.com/Siva0621-sys/SOLVEAI/actions/workflows/deploy.yml)
-[![Flutter Tests](https://img.shields.io/badge/Flutter%20Tests-100%25%20Passing-brightgreen)](https://github.com/Siva0621-sys/SOLVEAI)
+[![Deploy to GitHub Pages](https://github.com/Siva0621-sys/NERMEMORY_CARE/actions/workflows/deploy.yml/badge.svg)](https://github.com/Siva0621-sys/NERMEMORY_CARE/actions/workflows/deploy.yml)
+[![Flutter Tests](https://img.shields.io/badge/Flutter%20Tests-100%25%20Passing-brightgreen)](https://github.com/Siva0621-sys/NERMEMORY_CARE)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Smart India Hackathon 2026 • Problem Statement ID: 26003**  
@@ -13,7 +13,7 @@
 ## 🌐 Live Web Demo
 
 You can open and test the app directly in your browser without installing Flutter:  
-👉 **[Open Live Web App on GitHub Pages](https://siva0621-sys.github.io/SOLVEAI/)**
+👉 **[Open Live Web App on GitHub Pages](https://siva0621-sys.github.io/NERMEMORY_CARE/)**
 
 *(Or run locally using the steps below)*
 
@@ -25,10 +25,10 @@ Clone the repository and run it locally with Flutter:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Siva0621-sys/SOLVEAI.git
+git clone https://github.com/Siva0621-sys/NERMEMORY_CARE.git
 
 # 2. Navigate to project folder
-cd SOLVEAI
+cd NERMEMORY_CARE
 
 # 3. Fetch dependencies
 flutter pub get

@@ -36,7 +36,7 @@ jobs:
           flutter test
 
       - name: Build Web Application
-        run: flutter build web --release --base-href "/SOLVEAI/"
+        run: flutter build web --release --base-href "/NERMEMORY_CARE/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
